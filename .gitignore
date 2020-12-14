@@ -1,0 +1,6 @@
+*.json
+run.bat
+env/
+TempDownload/
+.vscode/
+__pycache__/
