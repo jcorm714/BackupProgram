@@ -1,5 +1,6 @@
 *.json
-run.bat
+run.*
+run*
 env/
 TempDownload/
 .vscode/
