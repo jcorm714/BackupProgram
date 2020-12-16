@@ -54,7 +54,6 @@ def backup_files():
         items =  res.Bucket("joshcormierbackups").objects.all()
         keys =  [obj.key for obj in list(items) if config.aws_folder in obj.key]
         keys.sort()
-        keys.reverse()
         times = [get_date_from_key(key) for key in keys]
         times = set(times)
 
